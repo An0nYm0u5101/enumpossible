@@ -6,7 +6,10 @@ Uses a slightly modified version of [https://www.exploit-db.com/exploits/45939](
 ![screenshot](https://raw.githubusercontent.com/securemode/enumpossible/master/screenshot.png)
 
 ### Usage:
+```
+git clone https://github.com/securemode/enumpossible.git
+```
 Takes a list of servers in ip:port format:
 ```
-# ./enumpossible servers.txt
+# ./enumpossible.sh servers.txt
 ```
