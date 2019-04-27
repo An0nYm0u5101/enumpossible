@@ -4,3 +4,9 @@ Checks a list of SSH servers for password-based auth availability and for the ex
 Uses a slightly modified version of [https://www.exploit-db.com/exploits/45939](https://www.exploit-db.com/exploits/45939) to check for CVE-2018-15473.
 
 ![screenshot](https://raw.githubusercontent.com/securemode/enumpossible/master/screenshot.png)
+
+### Usage:
+Takes a list of servers in ip:port format:
+```
+# ./enumpossible servers.txt
+```
